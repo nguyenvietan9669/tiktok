@@ -1,0 +1,45 @@
+.wrapper {
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    color: #161823;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2px;
+    &:hover {
+        background-color: #f8f8f8;
+    }
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.active {
+    .icon-active {
+        display: block;
+    }
+    .icon {
+        display: none;
+    }
+}
+
+.icon-active {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+}
+
+.title {
+    padding: 10px 4px;
+    flex: 1;
+    margin-left: 4px;
+    font-size: 1.1rem;
+}
+
+.active {
+    color: var(--primary);
+}

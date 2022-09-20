@@ -1,0 +1,64 @@
+.wrapper {
+    width: 320px;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-follow {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.avatar {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 1.4rem;
+}
+
+.icon-check {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    color: rgb(32, 213, 236);
+}
+
+.full-name {
+    font-size: 1.1rem;
+}
+
+.statistical {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+.value {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.key {
+    font-size: 1.3rem;
+    margin-left: 5px;
+    color: rgba(22, 24, 35, 0.75);
+}
+
+.value ~ .value {
+    margin-left: 16px;
+}
